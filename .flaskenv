@@ -1,0 +1,2 @@
+FLASK_APP=finance.py
+FLASK_ENV=development

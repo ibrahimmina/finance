@@ -1,0 +1,78 @@
+2022-02-17 09:11:56,158 ERROR: Exception on / [GET] [in c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py:1454]
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1511, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(func)()
+  File "C:\Users\Dell\Documents\finance\app\main\routes.py", line 21, in before_request
+    #g.locale = str(get_locale())
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\__init__.py", line 222, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2022-02-17 09:11:56,366 ERROR: Exception on /favicon.ico [GET] [in c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py:1454]
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1511, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(func)()
+  File "C:\Users\Dell\Documents\finance\app\main\routes.py", line 21, in before_request
+    #g.locale = str(get_locale())
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\__init__.py", line 222, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2022-02-17 09:12:29,842 INFO: Microblog startup [in C:\Users\Dell\Documents\finance\app\__init__.py:78]
+2022-02-17 09:12:35,948 ERROR: Exception on / [GET] [in c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py:1454]
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_login\utils.py", line 271, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_login\login_manager.py", line 160, in unauthorized
+    if self.login_message:
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\speaklater.py", line 24, in __len__
+    return len(str(self))
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\speaklater.py", line 21, in __str__
+    return str(self._func(*self._args, **self._kwargs))
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\__init__.py", line 689, in gettext
+    return get_domain().gettext(*args, **kwargs)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\__init__.py", line 682, in get_domain
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2022-02-17 20:50:36,952 INFO: Microblog startup [in C:\Users\Dell\Documents\finance\app\__init__.py:78]
+2022-02-17 20:50:43,867 ERROR: Exception on / [GET] [in c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py:1454]
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_login\utils.py", line 271, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_login\login_manager.py", line 160, in unauthorized
+    if self.login_message:
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\speaklater.py", line 24, in __len__
+    return len(str(self))
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\speaklater.py", line 21, in __str__
+    return str(self._func(*self._args, **self._kwargs))
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\__init__.py", line 689, in gettext
+    return get_domain().gettext(*args, **kwargs)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\flask_babel\__init__.py", line 682, in get_domain
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
